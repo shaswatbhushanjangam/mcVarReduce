@@ -1,0 +1,27 @@
+Package: mcVarReduce
+Type: Package
+Title: Variance Reduction for Monte Carlo Integration
+Version: 1.0.0
+Authors@R: c(
+    person("Shaswat Bhushan", "Jangam", email = "sjangam2@student.gsu.edu", role = c("aut", "cre")),
+    person("Prakash", "Karki", email = "pkarki1@student.gsu.edu", role = "aut"),
+    person("Mangsa Limbu", "Pheudin", email = "mlinbupheudin1@student.gsu.edu", role = "aut")
+    )
+Description: Implements control variates, antithetic variables, and importance
+    sampling for a common Monte Carlo integration problem. The control-variate
+    implementation is the main method, and a controlled correlation study is
+    provided so that the effect of control quality on estimator precision can
+    be investigated reproducibly. Accuracy is evaluated against the exact
+    target value, and the three variance-reduction methods can be
+    compared under the same target-function evaluation budget.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.2.0)
+Imports:
+    stats
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3

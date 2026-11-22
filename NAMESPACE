@@ -1,0 +1,5 @@
+export(antithetic_estimate)
+export(compare_methods)
+export(control_variate)
+export(correlation_study)
+export(importance_sampling)
