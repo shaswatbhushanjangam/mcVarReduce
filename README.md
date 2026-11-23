@@ -2,9 +2,9 @@
 
 `mcVarReduce` implements three variance-reduction methods for the common Monte Carlo integration target
 
-\[
-\theta = \int_0^1 e^x\,dx = e - 1.
-\]
+$$
+\theta = \int_0^1 e^x\,dx = e - 1
+$$
 
 The package provides control variates, antithetic variables, and importance sampling. The exact value `exp(1) - 1` is used as the accuracy reference, and the methods can be compared under the same target-function evaluation budget.
 
